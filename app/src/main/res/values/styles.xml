@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="RoundedImageStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="CategoryButton">
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="iconSize">10dp</item>
+    </style>
+
+
+    <style name="CategoryButton.Unselected" parent="CategoryButton">
+        <item name="android:background">@drawable/unselected_categories_button</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CategoryButton.Selected"  parent="CategoryButton">
+        <item name="android:background">@drawable/selected_categories_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="iconSize">10dp</item>
+    </style>
+
+</resources>

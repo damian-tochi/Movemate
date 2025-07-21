@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Movemate</string>
+    <string name="title_home">Home</string>
+    <string name="title_calculate">Calculate</string>
+    <string name="title_shipment">Shipment</string>
+    <string name="title_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="what_are_you_sending">What are you sending?</string>
+    <string name="documents">Documents</string>
+    <string name="calculate">Calculate</string>
+    <string name="others">Others</string>
+    <string name="product">Product</string>
+    <string name="electronic">Electronic</string>
+    <string name="food">Food</string>
+    <string name="liquid">Liquid</string>
+    <string name="glass">Glass</string>
+    <string name="this_amount_is_estimated_this_will_vary_if_you_change_vour_location_or_weight">This amount is estimated this will vary if you change vour location or weight</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="parcels_sent">Parcels Sent</string>
+    <string name="categories">Categories</string>
+    <string name="send_to">send to</string>
+    <string name="packaging">Packaging</string>
+    <string name="approx_weight">Approx weight</string>
+    <string name="receiver_location">Receiver location</string>
+    <string name="sender_location">Sender location</string>
+    <string name="destination">Destination</string>
+</resources>

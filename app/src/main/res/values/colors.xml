@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    <color name="colorPrimary">#FF6200EE</color>-->
+    <color name="colorPrimary">#FF563E99</color>
+    <color name="colorPrimaryDark">#FF3700B3</color>
+    <color name="colorAccent">#FF03DAC5</color>
+    <color name="colorControlNormal">#7F000000</color>
+    <color name="colorControlActivated">#FF6200EE</color>
+    <color name="colorControlHighlight">#3FBB86FC</color>
+    <color name="colorBackground">#FFFFFFFF</color>
+    <color name="colorError">#FFB00020</color>
+    <color name="colorTransparent">#0F000000</color>
+    <color name="colorTextPrimary">#9F000000</color>
+    <color name="colorTextSecondary">#FF757575</color>
+    <color name="colorTextHint">#FFBDBDBD</color>
+    <color name="colorTextDisabled">#FF9E9E9E</color>
+    <color name="colorYellow">#FFFFEB3B</color>
+    <color name="colorOrange">#FFFF9800</color>
+    <color name="colorFragmentBackground">#FFFAFAFA</color>
+    <color name="colorWhiteWash">#F9FFF4EA</color>
+    <color name="colorWhiteFaded">#7FE0E1E4</color>
+    <color name="colorGreen">#FF4CAF50</color>
+    <color name="colorGreenDarker">#FF00796B</color>
+    <color name="colorBlue">#0077B6</color>
+
+</resources>

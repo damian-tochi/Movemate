@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="0dp"
+            android:paddingEnd="15dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="1dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/logoPic"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription=""
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/vecteezy_portrait"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:shapeAppearanceOverlay="@style/RoundedImageStyle" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="@id/logoPic"
+                    app:layout_constraintEnd_toStartOf="@id/profile_img"
+                    app:layout_constraintStart_toEndOf="@id/logoPic"
+                    app:layout_constraintTop_toTopOf="@id/logoPic">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:contentDescription="open location"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_location_arrow" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoSizeMaxTextSize="16sp"
+                            android:autoSizeMinTextSize="1dp"
+                            android:gravity="center_horizontal"
+                            android:text="Your location"
+                            android:textColor="#FECC9E"
+                            android:textSize="14sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/appName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoSizeMaxTextSize="16sp"
+                            android:autoSizeMinTextSize="1dp"
+                            android:gravity="center_horizontal"
+                            android:text="Wertheimer, Illinois"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_marginStart="10dp"
+                            android:contentDescription="open location"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/arrow_down" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/profile_img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/oval_background"
+                    android:padding="1dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription=""
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_notification" />
+                </FrameLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="5dp">
+
+            <ImageButton
+                android:id="@+id/closeSearch"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="1dp"
+                android:contentDescription="TODO"
+                android:padding="2dp"
+                android:src="@drawable/arrow_left"
+                android:visibility="gone"
+                android:background="@null"
+                app:layout_constraintBottom_toBottomOf="@id/searchCard"
+                app:layout_constraintEnd_toStartOf="@id/searchCard"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/searchCard" />
+
+            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/searchCard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                card_view:cardCornerRadius="30dp"
+                card_view:cardElevation="2dp"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toEndOf="@id/closeSearch"
+                card_view:layout_constraintTop_toTopOf="parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="4dp">
+
+                    <ImageView
+                        android:id="@+id/search_icon"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="search icon"
+                        android:src="@drawable/ic_search"
+                        card_view:tint="@color/colorTextSecondary" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/filterCard"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        card_view:cardBackgroundColor="@color/colorOrange"
+                        card_view:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/filter_icon"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:contentDescription="filter search"
+                            android:src="@drawable/ic_filter" />
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <EditText
+                        android:id="@+id/searchInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_toStartOf="@id/filterCard"
+                        android:layout_toEndOf="@id/search_icon"
+                        android:autofillHints="Enter the recipient number..."
+                        android:background="@android:color/transparent"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:hint="Enter the recipient number..."
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@color/colorTextHint" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+</LinearLayout>
