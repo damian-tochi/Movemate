@@ -5,7 +5,6 @@ This project attempts to implement the UI shared in this clip:
 
 It features a modern, fluid Android user interface using **fragments**, **custom bottom navigation**, **shared ViewModel communication**, and **smooth animations** for improved user experience.
 
----
 
 ## Features
 
@@ -21,8 +20,6 @@ It features a modern, fluid Android user interface using **fragments**, **custom
 
 - Other Styling  
 
-
----
 
 ## Tech Stack
 
