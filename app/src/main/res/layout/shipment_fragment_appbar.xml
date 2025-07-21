@@ -22,19 +22,16 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
 
                 <ImageButton
                     android:id="@+id/closeSearch"
-                    android:layout_width="20dp"
+                    android:layout_width="30dp"
                     android:layout_height="20dp"
                     android:layout_gravity="center"
                     android:layout_marginEnd="1dp"
-                    android:contentDescription="TODO"
+                    android:contentDescription="close"
                     android:background="@null"
-                    android:padding="20dp"
                     android:src="@drawable/arrow_left"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +46,7 @@
                     android:gravity="center_horizontal"
                     android:text="Shipment history"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="17sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
