@@ -50,5 +50,5 @@ It features a modern, fluid Android user interface using **fragments**, **custom
    - Press Run.
 
 
-## APK Download/Instalation
-- 
+## APK Download/Installation
+- https://drive.google.com/file/d/1W5bVG7uYZwiM1FcLRpqplaghbIm9qetn/view?usp=sharing
