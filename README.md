@@ -38,7 +38,7 @@ It features a modern, fluid Android user interface using **fragments**, **custom
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/damian-tochi/Movemate.git
 
 2. Open in Android Studio
    - Open Android Studio.
