@@ -15,7 +15,7 @@
     <string name="food">Food</string>
     <string name="liquid">Liquid</string>
     <string name="glass">Glass</string>
-    <string name="this_amount_is_estimated_this_will_vary_if_you_change_vour_location_or_weight">This amount is estimated this will vary if you change vour location or weight</string>
+    <string name="this_amount_is_estimated_this_will_vary_if_you_change_vour_location_or_weight">This amount is estimated this will vary\nif you change your location or weight</string>
     <string name="back_to_home">Back to Home</string>
     <string name="parcels_sent">Parcels Sent</string>
     <string name="categories">Categories</string>

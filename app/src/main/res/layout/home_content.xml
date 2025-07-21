@@ -112,7 +112,7 @@
                         android:layout_height="1.1dp"
                         android:layout_marginBottom="15dp"
                         android:layout_marginTop="10dp"
-                        android:background="@color/colorControlHighlight"/>
+                        android:background="@color/colorWhiteFaded"/>
 
 
                     <LinearLayout
@@ -355,7 +355,7 @@
                         android:layout_height="1.1dp"
                         android:layout_marginBottom="10dp"
                         android:layout_marginTop="15dp"
-                        android:background="@color/colorControlHighlight"/>
+                        android:background="@color/colorWhiteFaded"/>
 
                     <LinearLayout
                         android:id="@+id/addStopLayout"
